@@ -1,0 +1,32 @@
+{
+    "name": "byfareska/modelflow-chroma-embeddings-store",
+    "description": "Chroma embeddings store for modelflow-ai.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Byfareska\\Modelflow\\ChromaEmbeddingsStore\\": "src/"
+        }
+    },
+    "keywords": [
+        "ai",
+        "chroma",
+        "chromadb",
+        "embeddings",
+        "modelflow",
+        "modelflow-ai",
+        "gpt4",
+        "gpt3.5"
+    ],
+    "authors": [
+        {
+            "name": "Karol Szarafinowski",
+            "email": "karol@szarafinowski.pl"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "modelflow-ai/embeddings": "*",
+        "codewithkyrian/chromadb-php": "*"
+    }
+}
